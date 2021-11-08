@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+   
+}
+ul li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+a.active,a:hover{
+    color: #15f4ee;
+}
+
+.logo{
+    line-height: 150px;
+    letter-spacing: 0.5rem;
+     font-family: 'Open Sans', sans-serif;
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section {
+    padding: 2rem 0 4rem;
+}
+
+.section__title{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section__subtitle{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section__subtitle, 
+.section__title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+/* .grid {
+    display: grid;
+    gap: 1.5rem;
+} */
+.contact__form {
+    width: 700px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: .5rem;
+    justify-content: space-between;
+}
+
+.contact__content {
+    background-color: rgba(241, 241, 241, 0.685);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem 0.25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact__label {
+    font-size: 1rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact__input {
+    width: 100%;
+    background-color: rgba(241, 241, 241, 0.685);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button__icon {
+    margin-left: 0.5rem;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: darkgrey;
+    font-size: 1.1rem;
+}
+
+@media (max-width : 858px){
+    .container {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .contact__inputs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width : 450px){
+    .container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
