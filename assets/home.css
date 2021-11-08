@@ -60,29 +60,17 @@ a.active,a:hover{
 #check{
     display: none;
 }
-@media (max-width : 439px){
-   
-.logo{
-    font-size: 20px;
-}
-.checkbtn{
-    font-size: 15px;
-}
-}
-@media (max-width : 341px){
-    .logo{
-        font-size: 15px;
-        margin-left: 60px;
-    }
-    .checkbtn{
-        font-size: 15px;
-        margin-right: 60px;
-    }
-   
-    }
 @media (max-width : 858px){
     .checkbtn{
         display: block;
+    }
+    .logo{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .checkbtn{
+        font-size: 25px;
+        margin-right: 20px;
     }
   ul{
       position: fixed;
@@ -105,6 +93,29 @@ a.active,a:hover{
   
 
 }
+@media (max-width : 439px){
+   
+.logo{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.checkbtn{
+    font-size: 15px;
+    margin-right: 20px;
+}
+}
+@media (max-width : 341px){
+    .logo{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .checkbtn{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+   
+    }
+
 
 
 .content{
