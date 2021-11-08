@@ -60,7 +60,30 @@ a.active,a:hover{
 #check{
     display: none;
 }
-
+@media (max-width : 439px){
+    .footer-content{
+        padding: 20px 40px;
+    }
+.logo{
+    font-size: 20px;
+}
+.checkbtn{
+    font-size: 15px;
+}
+}
+@media (max-width : 341px){
+    .logo{
+        font-size: 15px;
+        margin-left: 60px;
+    }
+    .checkbtn{
+        font-size: 15px;
+        margin-right: 60px;
+    }
+    .footer-content{
+        padding: 20px 20px;
+    }
+    }
 @media (max-width : 858px){
     .checkbtn{
         display: block;
@@ -144,7 +167,7 @@ footer{
 
     display: flex;
     flex-wrap: wrap;
-   padding: 20px 100px;
+   padding: 20px 60px;
 }
 .box1{
     padding: 20px;
