@@ -49,9 +49,17 @@ html{
 .about__container {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    column-gap: 3rem;
-    row-gap: 4rem;
+    column-gap: 30rem;
+    row-gap: 10rem;
     justify-content: center;
+}
+
+.image {
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    left: 38%;
+    top: 72%;
 }
 
 .about {
@@ -85,6 +93,21 @@ html{
     text-align: justify;
 }
 
+@media (max-width : 1030px){
+    .about__container {
+        column-gap: 15rem;
+        row-gap: 5rem;
+    }
+    
+    .image {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 35%;
+        top: 82%;
+    }
+}
+
 @media (max-width : 858px){
     .container {
         margin-left: 6rem;
@@ -93,6 +116,10 @@ html{
     .about__container {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
+    }
+
+    .image {
+        visibility: hidden;
     }
 }
 
