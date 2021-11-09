@@ -35,7 +35,12 @@ ul li a{
 a.active,a:hover{
     color: #15f4ee;
 }
-
+.social a{
+    color: white;
+}
+.social a:hover{
+color: #15f4ee;
+}
 .logo{
     line-height: 150px;
     letter-spacing: 0.5rem;
