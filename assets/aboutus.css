@@ -120,6 +120,8 @@ html{
 
     .image {
         visibility: hidden;
+        left: 20%;
+        top: 82%;
     }
 }
 
