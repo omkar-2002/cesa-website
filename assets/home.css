@@ -178,6 +178,12 @@ color: #15f4ee;
 
 }
 @media (max-width : 439px){
+    .aboutheader p{
+        font-size: 15px;
+            }
+    .aboutheader h1{
+font-size: 20px;
+    }
     .section{
         height: 30vh;
         width: 100%;
@@ -210,6 +216,12 @@ color: #15f4ee;
 
 }
 @media (max-width : 341px){
+    .aboutheader h1{
+        font-size: 20px;
+            }
+            .aboutheader p{
+                font-size: 15px;
+                    }
     .section{
        
         height: 30vh;
