@@ -129,11 +129,19 @@ a.active,a:hover{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .section__title {
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width : 450px){
     .container {
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+
+    .section__title {
+        font-size: 1.4rem;
     }
 }
