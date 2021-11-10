@@ -176,6 +176,14 @@ color: #15f4ee;
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .aboutheader h1 {
+        font-size: 1.6rem;
+    }
+
+    .aboutheader p {
+        font-size: 0.9rem;
+    }
+
 }
 @media (max-width : 439px){
     .section{
@@ -204,8 +212,12 @@ color: #15f4ee;
     grid-template-columns: repeat(1, 1fr);
 }
 
-.heading h1{
-    font-size: 1.5rem;
+.aboutheader h1 {
+    font-size: 1.3rem;
+}
+
+.aboutheader p {
+    font-size: 0.8rem;
 }
 
 }
@@ -235,6 +247,10 @@ color: #15f4ee;
 
     .cards {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutheader h1 {
+        font-size: 1.3rem;
     }
 }
 
