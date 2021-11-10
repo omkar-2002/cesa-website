@@ -65,6 +65,78 @@ color: #15f4ee;
 #check{
     display: none;
 }
+
+.header{
+    color: #15f4ee;
+    font-family: 'Open Sans', sans-serif;
+}
+.social{
+    display: flex;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    width: 150px;
+    justify-content: space-between;
+}
+.social2{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.social2 h5{
+    margin-left: 10px;
+}
+.social .div{
+    display: flex;
+}
+.footer-content{
+
+    display: flex;
+    flex-wrap: wrap;
+   padding: 20px 60px;
+}
+.box1{
+    padding: 20px;
+    flex-basis: 40%;
+}
+.box2{
+    padding: 20px;
+    flex-basis: 20%;
+}
+.box3{
+    padding: 20px;
+    flex-basis: 40%;
+}
+.box4{
+    margin-top: 20px;
+    flex-basis: 100%;
+}
+.nbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.members div{
+    display: flex;
+}
+
+.fab{
+    margin-right: 10px;
+}
+
+.loaction .fas{
+    margin-right: 20px;
+}
+
+
+
+.Copyright h5{
+    font-family: 'Open Sans', sans-serif;
+    color: white
+   
+}
 @media (max-width : 858px){
     .checkbtn{
         display: block;
@@ -150,75 +222,3 @@ footer{
 
 
 
-
-.header{
-    color: #15f4ee;
-    font-family: 'Open Sans', sans-serif;
-}
-.social{
-    display: flex;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 10px;
-    width: 150px;
-    justify-content: space-between;
-}
-.social2{
-    display: flex;
-    color: white;
-    margin-top: 10px;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-.social2 h5{
-    margin-left: 10px;
-}
-.social .div{
-    display: flex;
-}
-.footer-content{
-
-    display: flex;
-    flex-wrap: wrap;
-   padding: 20px 60px;
-}
-.box1{
-    padding: 20px;
-    flex-basis: 40%;
-}
-.box2{
-    padding: 20px;
-    flex-basis: 20%;
-}
-.box3{
-    padding: 20px;
-    flex-basis: 40%;
-}
-.box4{
-    margin-top: 20px;
-    flex-basis: 100%;
-}
-.nbox{
-    display: flex;
-    flex-direction: column;
-}
-
-.members div{
-    display: flex;
-}
-
-.fab{
-    margin-right: 10px;
-}
-
-.loaction .fas{
-    margin-right: 20px;
-}
-
-
-
-.Copyright h5{
-    font-family: 'Open Sans', sans-serif;
-    color: white
-   
-}
