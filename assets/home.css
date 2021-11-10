@@ -75,7 +75,7 @@ color: #15f4ee;
     z-index: 2;
 }
 .content{
-    height: 70%;
+    height: 90%;
     width: 100%;
     position: relative;
     animation: transitionIn 1.5s;
@@ -93,8 +93,7 @@ color: #15f4ee;
 }
 .section{
     display: flex;
-    justify-content: center;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
 }
 
@@ -161,7 +160,7 @@ color: #15f4ee;
       background-color: rgba(0,0,0,0.85);
       top: 100px;
       left: 0;
-     
+     z-index: 50;
       left: -100%;
       transition: all 0.5s;
   }
@@ -180,11 +179,11 @@ color: #15f4ee;
 }
 @media (max-width : 439px){
     .section{
-        height: 40vh;
+        height: 30vh;
         width: 100%;
     }
     .content{
-        height: 50%;
+        height: 90%;
       
     }
     .headline{
@@ -213,11 +212,11 @@ color: #15f4ee;
 @media (max-width : 341px){
     .section{
        
-        height: 40vh;
+        height: 30vh;
         width: 100%;
     }
     .content{
-        height: 50%;
+        height: 90%;
       
     }
     .logo{
@@ -264,7 +263,16 @@ footer{
    
 }
 
-
+.aboutheader{
+    
+    text-align: center; 
+    font-family: 'Poppins',
+     sans-serif;background-color: #15f4ee;
+      padding: 40px 0;
+    background-color: #15f4ee;
+    animation: transitionOpacity 2s;
+    opacity: 1;
+}
 
 .content::after{
     content: "";
@@ -356,26 +364,18 @@ height: 0%;
 width: 50%;
     }
     to{
-height: 70%;
+height: 90%;
 width: 100%;
     }
 }
 
-@keyframes transitionSlider {
-    from{
-left: -100%;
-    }
-    to{
-left: 0%;
-    }
-}
 
 
 @keyframes transitionOpacity {
     from{
-opacity: 1;
+opacity: 0;
     }
     to{
-opacity:  0;
+opacity:  1;
     }
 }
