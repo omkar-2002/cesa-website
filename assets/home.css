@@ -97,6 +97,46 @@ color: #15f4ee;
     height: 80vh;
     width: 100%;
 }
+
+.cards {
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem 5rem;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform .2s;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+}
+
+.card__img {
+    margin: 0.8rem 0;
+    width: 150px;
+    height: 150px;
+    background-image: url("./images/office-teamwork-workers-business-management-600w-227734900.webp");
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.card h2 {
+    color: #0e4e83;
+    margin: 0.8rem 0;
+}
+
+@media (max-width : 1024px){
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width : 858px){
     .headline{
       
@@ -133,11 +173,13 @@ color: #15f4ee;
        left: 0;
    }
   
+   .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 @media (max-width : 439px){
     .section{
-       
         height: 40vh;
         width: 100%;
     }
@@ -158,6 +200,15 @@ color: #15f4ee;
     font-size: 15px;
     margin-right: 20px;
 }
+
+.cards {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.heading h1{
+    font-size: 1.5rem;
+}
+
 }
 @media (max-width : 341px){
     .section{
@@ -182,7 +233,11 @@ color: #15f4ee;
         font-size: 20px;
        
     }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
     }
+}
 
 
 
